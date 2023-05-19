@@ -1,0 +1,6 @@
+project: jinx
+target: jinx-fuzz
+
+cmds:
+    - cmd: ./jinx-fuzz
+      libfuzzer: true
